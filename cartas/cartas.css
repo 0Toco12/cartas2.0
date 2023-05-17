@@ -1,0 +1,20 @@
+#sorteada {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 50px;
+    width: 100px;
+    height: 150px;
+}
+
+#sorteada:hover {
+    background: darkred;
+    color: white;
+    box-shadow: 5px 5px 5px red;
+    animation: mover 1s linear infinite;
+}
+
+@keyframes mover {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(250px);}
+    100% {transform: translateY(0);}
+}
